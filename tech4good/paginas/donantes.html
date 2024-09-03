@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="donantes.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li><a href="/paginas/donantes.html" class="nav-button">Donantes</a></li>
+            <li><a href="/paginas/inventario.html" class="nav-button">Inventario</a></li>
+            <li><a href="/paginas/reporteDetallado.html" class="nav-button">Reporte Detallado</a></li>
+        </ul>    
+    </nav>  
+
+    <div align="center">        
+        <h1>Llenar el siguiente formulario solo SI desea donar.</h1>
+        <br><br>
+    </div>
+    
+    <div class="cont">
+        <form class="fomulario">
+            <fieldset class="fiel">
+                <legend>Datos personales</legend><br>
+
+                <label>Id Donante</label><br>
+                <input name="idDonante" type="text" maxlength="15" placeholder="Números y/o letras"><br><br>
+    
+                <label>Nombre</label><br>
+                <input name="Nombre" type="text" maxlength="50" placeholder="En mayúscula"><br><br>
+     
+                <label>Dirección</label><br>
+                <input name="direccion" type="text" maxlength="100" placeholder="Ej: Cra 46 #65-55"><br><br>
+
+                <label>Télefono</label><br>
+                <input name="telefono" type="number" maxlength="20" placeholder="Solo números"><br><br>
+            </fieldset>
+        </form>   
+        <a href="/paginas/admin.html">admin</a>     
+    </div>
+</body>
+</html>

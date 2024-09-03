@@ -1,0 +1,79 @@
+body{
+    /* background: linear-gradient(black, gray); */
+    background-image: url('/imagenes/');
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed;
+    font-family: "Arial", sans-serif;
+    height: 100%; /* Asegura que el body ocupa toda la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado del body */
+    display: flex; /* Activa el modelo Flexbox en el body */
+    justify-content: center; /* Centra horizontalmente el contenedor */
+    align-items: center;
+    align-self: center;
+    /* background-color: #187559; */
+
+}
+
+
+.admin {
+    width: 400px;
+    margin: auto;
+    height: 230px; /* Alto del contenedor */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    padding: 20px; /* Espaciado interno del contenedor */
+    /* border: 2px solid #000;  */
+    background-color:#187559;        
+}
+
+.admin li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    padding: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.admin li span {
+    font-weight: bold;
+}
+
+.admin li a {
+    color: #000;
+    background-color: #e0e0e0;
+
+}
+
+/* .admin {
+    padding-top: 4px;
+    margin: 0;
+    width: 100%;
+    height: 50px;    
+    background-color: #187559;    
+} */
+
+/* .list {
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+} */
+
+.nav-button {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #3b8545; 
+}
+
+
